@@ -1,74 +1,91 @@
-# 👩‍💻 Eleanor's Portfolio
+# Eleanor Hoile Portfolio
 
-A professional UX design portfolio — live at **[eleanorhoile322-ux.github.io/portfolio](https://eleanorhoile322-ux.github.io/portfolio/)**.
+A UX portfolio focused on evidence-led design, measurable outcomes, and human-centered product thinking.
 
-## 🌐 Live Site
+Live site: [https://eleanorhoile322-ux.github.io/portfolio/](https://eleanorhoile322-ux.github.io/portfolio/)
 
-**[https://eleanorhoile322-ux.github.io/portfolio/](https://eleanorhoile322-ux.github.io/portfolio/)**
+## What This Portfolio Communicates
 
-## 🗂️ Repository Structure
+This site is designed to show:
 
-```
+- A clear design process from discovery to delivery
+- Case studies framed around problem, constraints, and impact
+- Practical UX strengths across research, interaction design, and accessibility
+- Collaboration habits with product, engineering, and stakeholders
+
+The goal is not just to show polished screens, but to demonstrate decision-making quality.
+
+## Project Structure
+
+```text
 portfolio/
-├── index.html     # Main portfolio page
-├── styles.css     # Responsive stylesheet with dark/light mode
-├── script.js      # Interactivity (smooth scroll, filtering, theme toggle)
-├── .gitignore
-└── README.md
+|- index.html      # Page structure and all portfolio content
+|- styles.css      # Visual design, layout, responsive behavior, themes
+|- script.js       # Interactions: navigation, filtering, form validation, theme toggle
+`- README.md       # Repository and publishing documentation
 ```
 
-## 🚀 Deploying to GitHub Pages
+## Content Strategy
 
-This site is configured to deploy automatically via GitHub Pages from the `main` branch.
+The page content is organized to tell a narrative:
 
-### First-time setup
+1. Positioning
+	Introduces Eleanor as a UX designer focused on meaningful product outcomes.
+2. Credibility
+	Reinforces expertise with years of experience, project volume, and client trust.
+3. Proof
+	Case studies show business and user impact with concrete metrics.
+4. Capability
+	Skills section explains methods, process, and tools used in real delivery.
+5. Conversion
+	Contact section makes it easy to start a freelance, contract, or full-time conversation.
 
-1. Go to your repository on GitHub: `https://github.com/eleanorhoile322-ux/portfolio`
-2. Click **Settings** → **Pages** (in the left sidebar under *Code and automation*)
-3. Under **Source**, select **Deploy from a branch**
-4. Choose branch: **`main`** and folder: **`/ (root)`**
-5. Click **Save**
+## Publish With GitHub Pages
 
-GitHub Pages will build and publish the site. After a minute or two, it will be live at:
-```
-https://eleanorhoile322-ux.github.io/portfolio/
-```
+This repository deploys from the main branch.
 
-### Updating your portfolio
+1. Open [https://github.com/eleanorhoile322-ux/portfolio](https://github.com/eleanorhoile322-ux/portfolio)
+2. Go to Settings -> Pages
+3. Under Source, choose Deploy from a branch
+4. Select main and /(root)
+5. Save
 
-Any time you push changes to the `main` branch, GitHub Pages will automatically redeploy the site within a few minutes.
+After deployment, updates appear automatically whenever new commits are pushed to main.
+
+## Update Workflow
+
+Use this standard workflow for content updates:
 
 ```bash
 git add .
-git commit -m "Update portfolio content"
+git commit -m "Refresh portfolio content"
 git push origin main
 ```
 
-## ✏️ Customizing the Content
+## Quick Customization Checklist
 
-Open `index.html` and search for the following placeholder text to personalise the portfolio:
+Before sharing the portfolio publicly, replace all placeholder details in index.html:
 
-| Placeholder | What to change |
-|---|---|
-| `hello@eleanor.design` | Your real email address |
-| `linkedin.com/in/eleanor` | Your LinkedIn profile URL |
-| `dribbble.com/eleanor` | Your Dribbble profile URL |
-| `github.com/eleanorhoile322-ux` | Already correct — your GitHub |
-| Project card titles/descriptions | Replace with your real projects |
+- Email address currently shown as hello@eleanor.design
+- LinkedIn profile currently shown as linkedin.com/in/eleanor
+- Dribbble profile currently shown as dribbble.com/eleanor
+- Any placeholder case study links currently using #
 
-## 🛠️ Tools & Skills Showcased
+Also consider adding:
 
-- UX Research & Usability Testing
-- Wireframing & Prototyping (Figma, Sketch)
-- Information Architecture
-- Interaction Design & Design Systems
-- Accessibility (WCAG)
+- Real client names where NDA allows
+- Before-and-after visuals for each case study
+- A downloadable CV link in hero or footer
 
-## 📬 Contact
+## Recommended Next Improvements
 
-- [LinkedIn](https://linkedin.com/in/eleanor) — update with your URL
-- [Email](mailto:hello@eleanor.design) — update with your email
+For stronger hiring impact, prioritize:
 
-## 📄 License
+1. Deeper case study pages with process artifacts and decisions
+2. Outcome metrics for each project (conversion, retention, completion time)
+3. Testimonials from cross-functional partners
+4. A short "how I work" section for team collaboration style
 
-This portfolio is for viewing purposes only. Please do not reproduce or use any work without permission.
+## License
+
+Portfolio content and visual design are personal work. Reuse or redistribution requires permission.
